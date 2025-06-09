@@ -1,0 +1,174 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Amazon Ember', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+}
+
+.nav-1 {
+    background-color: #090505;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+}
+
+.logo-black{
+    padding-left:1%;
+    height: 27px;
+}
+
+.nav-addr{
+    margin: auto 10px;
+    color: white;
+    display: inline-block;
+}
+
+.nav-addr-deliver{
+    
+    padding-left: 16px;
+    font-size: 11px;
+    color: white;
+}
+
+.nav-addr-val{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin: auto 10px;
+    width: 54%; 
+}
+
+.search select {
+    padding: 8px 10px;
+    font-size: 11px;
+    font-weight: 200;
+    background: rgb(226, 223, 223);
+    border-radius:5px 0 0 5px   ;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 35px;
+    color: #838080;  
+    flex-grow:1 ;
+    border: 0;
+}
+
+.search input{
+    padding: 6px 7px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 35px;  
+    flex-grow: 5;  
+    border: 0;
+}
+
+.search img {
+    background-color: #F4BF76;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius:0 5px 5px 0  ;
+}
+.search img:hover {
+    background-color: #c4914b;
+}
+
+.lang-img{
+    margin: auto 10px;
+}
+
+.cart{
+    margin: auto;
+}
+
+
+/* styles for nav-2 */
+
+.nav-2{
+    background-color: #252F3D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* styles for nav-3 */
+
+.nav-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px;
+    font-size: 11px;
+}
+
+/* nav for sortby */
+
+.sortby{
+    height: 20px;
+    border: 1px solid rgb(199, 197, 197);
+    padding: 10px;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+  
+.sortby p {
+    font-size: 13px;
+}
+
+.sortby select{
+    border-radius: 7px;
+    width: 120px;
+    font-size: 10px;
+    padding: 5px 8px;
+    background-color: #e8e8e8;
+    border: 1px solid rgb(222, 219, 219);
+}
+
+
+/* SECTION WISE STYLES */
+
+.main{
+    width: 100%;
+    display: flex;
+}
+
+/* LEFT SIDE */
+
+.left-sec{
+    background-color: #838080;
+    width: 18%;
+}
+
+.right-sec{
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.grid-sec{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+}
+
+.prod-div{
+    display: inline-block;
+}
+
+.prod-img{
+    height: 10px;
+}
