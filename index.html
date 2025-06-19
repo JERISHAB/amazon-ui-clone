@@ -4,46 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link href="https://db.onlinewebfonts.com/c/0117df0aa4bbd5d77ec9403958343f28?family=Amazon+Ember+Display+Light" rel="stylesheet"> -->
-
-    <!-- <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" /> -->
     <link rel="stylesheet" href="styles.css" />
-  </head>  <body>
+  </head>
+  <body>
     <header class="header-1">
       <nav class="nav-1">
-        <img src="images/amazon-logo.svg" alt="" class="logo-black" />
+        <img src="images/nav-elements/amazon-logo.svg" alt="" class="logo-black" />
         <div class="nav-addr">
-          <img src="images/location-logo.svg" alt="loc-img" />
+          <div class="loc-test"></div>
           <div class="nav-addr-text">
             <p class="nav-addr-deliver">Deliver to</p>
             <p class="nav-addr-val">Vythiri 673595</p>
           </div>
         </div>
         <div class="search">
-          <select class="drop-filer">
-            <option value="">Smartphones & Basic Mobiles ⏷</option>
-          </select>
-          <input type="text" placeholder="Search Amazon.in" />
-          <img src="/images/search-icon.svg" alt="" />
+          <div class="custom-select-wrapper">
+            <select class="drop-filer">
+              <option value="">Smartphones & Basic Mobiles</option>
+            </select>
+            <span class="down-arrow">⏷</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Search Amazon.in"
+            class="web-nav-search"
+          />
+          <img src="/images/nav-elements/search-icon.svg" alt="" />
         </div>
-        <img src="./images/lang-logo.svg" class="lang-img" alt="" />
+        <img src="./images/nav-elements/lang-logo.svg" class="lang-img" alt="" />
         <div class="nav-addr-text1">
           <p class="nav-addr-hello">Hello, Jerishab</p>
-          <p class="nav-addr-val">Account & Lists ⏷</p>
+          <p class="nav-addr-val1">
+            Account & Lists<span class="list-arrow">⏷</span>
+          </p>
         </div>
         <div class="nav-addr-text2">
-          <p class="nav-addr-hello">Returns</p>
-          <p class="nav-addr-val">& Orders</p>
+          <p class="nav-addr-hello2">Returns</p>
+          <p class="nav-addr-val2">& Orders</p>
         </div>
-        <img src="./images/cart.svg" alt="" class="cart" />
+        <img src="./images/nav-elements/cart.svg" alt="" class="cart" />
       </nav>
       <nav class="nav-2">
-        <img src="./images/all.svg" alt="" />
+        <div id="all-nav-2">
+          <img src="./images/nav-elements/all.svg" alt="" />
+          <p>All</p>
+        </div>
         <p class="nav-2-heads">Fresh</p>
-        <p class="nav-2-heads">Today's Deals</p>
-        <p class="nav-2-heads">Sell</p>
+        <p class="nav-2-heads">Mobiles</p>
         <p class="nav-2-heads">Amazon Pay</p>
+        <p class="nav-2-heads">Today's Deals</p>
         <p class="nav-2-heads">Bestsellers</p>
+        <p class="nav-2-heads">Sell</p>
         <p class="nav-2-heads">MX Player</p>
         <p class="nav-2-heads">Buy Again</p>
         <p class="nav-2-heads">Gift Cards</p>
@@ -51,33 +62,35 @@
         <p class="nav-2-heads">Jerishab's Amazon.in</p>
         <p class="nav-2-heads">Books</p>
         <p class="nav-2-heads">AmazonBasics</p>
-        <p class="nav-2-heads">Gift Ideas</p>
+        <p class="nav-2-heads">Kindle eBooks</p>
         <p class="nav-2-heads">Home Improvement</p>
       </nav>
       <nav class="nav-3">
         <p class="electronics">Electronics</p>
-        <p>Mobiles & Accessories</p>
-        <p>Laptops & Accessories</p>
-        <p>TV & Home Entertainment</p>
-        <p>Audio</p>
-        <p>Cameras</p>
-        <p>Computer Peripherals</p>
-        <p>Smart Technology</p>
-        <p>Musical Instruments</p>
-        <p>Office & Stationery</p>
+        <p class="nav-3-heads1">Mobiles & Accessories</p>
+        <p class="nav-3-heads2">Laptops & Accessories</p>
+        <p class="nav-3-heads3">TV & Home Entertainment</p>
+        <p class="nav-3-heads4">Audio</p>
+        <p class="nav-3-heads5">Cameras</p>
+        <p class="nav-3-heads6">Computer Peripherals</p>
+        <p class="nav-3-heads7">Smart Technology</p>
+        <p class="nav-3-heads8">Musical Instruments</p>
+        <p class="nav-3-heads9">Office & Stationery</p>
       </nav>
     </header>
 
     <header class="header-2">
       <nav class="nav-mob-1">
         <div class="mob-nav-left">
-          <img src="./images/burger-logo.svg" class="burger-logo" alt="" />
-          <img src="./images/amazon-logo-mob.svg" class="nav-mob-logo" alt="" />
+          <img src="./images/nav-elements/nav-mob-elements/burger-logo.svg" class="burger-logo" alt="" />
+          <img src="./images/nav-elements/nav-mob-elements/amazon-logo-mob.svg" class="nav-mob-logo" alt="" />
         </div>
         <div class="mob-nav-right">
-          <h4 class="mob-nav-name">Jerishab  ›</h4>
-          <img src="./images/profile.svg" alt="" class="mob-nav-profile" />
-          <img src="./images/cart-mob.svg" class="mob-nav-cart" alt="" />
+          <h4 class="mob-nav-name">
+            Jerishab&nbsp;<span style="font-weight: normal"> ›</span>
+          </h4>
+          <img src="./images/nav-elements/nav-mob-elements/profile.svg" alt="" class="mob-nav-profile" />
+          <img src="./images/nav-elements/nav-mob-elements/cart-mob.svg" class="mob-nav-cart" alt="" />
         </div>
       </nav>
       <nav class="nav-mob-2">
@@ -87,11 +100,11 @@
           class="nav-search-input"
         />
         <div class="search-icon-div">
-          <img src="/images/search-icon.svg" class="nav-search-icon" alt="" />
+          <img src="/images/nav-elements/nav-mob-elements/mob-search.svg" class="nav-search-icon" alt="" />
         </div>
       </nav>
       <nav class="nav-mob-3">
-        <img src="images/mob-loc-logo.svg" alt="" class="mob-3-loc" />
+        <img src="images/nav-elements/nav-mob-elements/mob-loc-logo.svg" alt="" class="mob-3-loc" />
         <p class="nav-3-addr">Deliver to Vythiri 673595 ⌵</p>
       </nav>
     </header>
@@ -99,8 +112,8 @@
     <div class="mob-filter">
       <div class="filter-left">
         <div class="prime-active">
-          <img src="images/prime-logo.svg" class="prime-logo" alt="">
-          <img src="images/prime-toggle.svg" class="prime-toggle" alt="">
+          <img src="images/nav-elements/nav-mob-elements/prime-logo.svg" class="prime-logo" alt="" />
+          <img src="images/nav-elements/nav-mob-elements/prime-toggle.svg" class="prime-toggle" alt="" />
 
           <!-- toggle switch -->
           <!-- <label class="toggle">
@@ -111,9 +124,7 @@
         </div>
         <div class="filter-brand">Nokia</div>
       </div>
-        <div class="filter-right" >
-          Filters (2) <strong>⌵</strong>
-        </div>
+      <div class="filter-right">Filters (2) <strong>⌵</strong></div>
     </div>
 
     <nav class="sortby">
@@ -121,72 +132,84 @@
         <button id="toggleBtn" onclick="toggleFunc()">
           <img
             class="toggleImg"
-            src="./images/filter-img.svg"
+            src="./images/nav-elements/nav-mob-elements/filter-img.svg"
             alt="togglebutton"
           />
         </button>
         <p class="sortby-result">1-14 of 89 results</p>
       </div>
-      <select class="sortby-filer">
-        <option value="Bestsellers">Sort by:Bestselling</option>
+      <div class="sortby-filter">
+        Sort by: &nbsp;Bestselling
+        <img class="sortby-arrow" src="images/nav-elements/sortyby-arrow.svg" alt="" />
+        <!-- <option value="Bestsellers">Sort by: &nbsp;Bestselling</option>
         <option value="">Price: Low to High</option>
         <option value="">Price: Hight to Low</option>
         <option value="">Avg. Customer Review</option>
         <option value="">Newest Arrivals</option>
-        <option value="">Best Sellers</option>
-      </select>
+        <option value="">Best Sellers</option> -->
+      </div>
     </nav>
     <section class="main">
       <section id="toggle-list" class="left-sec">
         <div class="category">
           <p id="brands-head">Category</p>
-          <p class="category-name" >	<img src="images/arrow-left.svg" class="greater-than alt=""> Electronics</p>
-          <p class="category-name" ><img src="images/arrow-left.svg" class="greater-than alt=""> Mobiles & Accessories</p>
-          <p class="category-name" id="category-active" id="category-sub" >Smartphones & Basic Mobiles</p>
-          <p class="category-name" id="category-sub" >Basic Mobiles</p>
+          <p class="category-name">
+            <img src="images/categories/arrow-left.svg" class="greater-than alt="">
+            Electronics
+          </p>
+          <p class="category-name">
+            <img src="images/categories/arrow-left.svg" class="greater-than alt=""> Mobiles
+            & Accessories
+          </p>
+          <p class="category-name" id="category-active" id="category-sub">
+            Smartphones & Basic Mobiles
+          </p>
+          <p class="category-name" id="category-sub">Basic Mobiles</p>
         </div>
         <p id="brands-head">Brands</p>
         <div class="mini-secl">
-          <p id="clear"><img src="images/arrow-left.svg" class="greater-than alt=""> Clear</p>
+          <p id="clear">
+            <img src="images/categories/arrow-left.svg" class="greater-than alt=""> Clear
+          </p>
           <label for="">
             <input type="checkbox" fileterName="brand" value="Nokia" />
-            Nokia
+            <span class="brand-value" id="brand-active" > Nokia</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="Apple" />
-            Apple
+            <span class="brand-value"> Apple</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="samsung" />
-            Samsung
+            <span class="brand-value">Samsung</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="iqoo" />
-            iQOO
+            <span class="brand-value"> iQOO</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="oneplus" />
-            OnePlus
+            <span class="brand-value"> OnePlus</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="redmi" />
-            Redmi
+            <span class="brand-value"> Redmi</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="realme" />
-            realme
+            <span class="brand-value"> realme</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="vivo" />
-            VIVO
+            <span class="brand-value">  VIVO</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="motorola" />
-            Motorola
+            <span class="brand-value">  Motorola</span>
           </label>
           <label for="">
             <input type="checkbox" fileterName="brand" value="oppo" />
-            OPPO
+            <span class="brand-value">  OPPO</span>
           </label>
         </div>
         <div class="item-condition">
