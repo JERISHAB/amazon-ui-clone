@@ -18,7 +18,7 @@
     url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff)
       format("woff");
 }
-
+                                 
 @font-face {
   font-family: "Amazon Ember";
   src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2)
@@ -460,6 +460,25 @@ body {
   margin-bottom: 8px;
 }
 
+#seeBtn{
+  display: flex;
+  align-items: center;
+  margin-top: 3.5px;
+  border: none;
+  color: rgb(33, 98, 161);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#seeBtn > img{
+  padding-top: 1px;
+  margin-left: .35px;
+  height: 7.2px;
+  transform: scaleX(91%);
+  margin-right: 3px;
+  
+}
+
 .brand-value {
   position: relative;
   left: -1.5px;
@@ -526,6 +545,8 @@ body {
   line-height: 15px;
   margin-left: 0.5px;
 }
+
+
 
 .filter-text {
   font-size: 14px;

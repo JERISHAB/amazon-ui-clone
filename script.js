@@ -141,7 +141,36 @@ const fetchData = async () => {
 
 fetchData();
 
+
+// Toggle function
+
 function toggleFunc() {
   const filter = document.getElementById("toggle-list");
   filter.classList.toggle("toggleDisplay");
+}
+
+
+function seeMOre() {
+
+  let btn = document.getElementById("seeBtn");
+  console.log(btn)
+  const brandLabel = document.getElementsByClassName("see-more-brand");
+  console.log((brandLabel));
+
+  if ((brandLabel[0].style.display === "none"))
+    for (let i = 0; i < 3; i++) {
+      console.log(brandLabel[i].style.display);
+      brandLabel[i].style.display = "flex";
+      console.log(brandLabel[i].style.display);
+      btn.innerHTML = `<img src="images/categories/see-more-arrow.svg" style="rotate: 180deg" alt="" />See less`;
+    } else {
+    for (let i = 0; i < 3; i++) {
+      console.log(brandLabel[i].style.display);
+      brandLabel[i].style.display = "none";
+      console.log(brandLabel[i].style.display);
+      btn.innerHTML = `<img src="images/categories/see-more-arrow.svg" alt="" />See more`;
+    }
+  
+
+  }
 }
