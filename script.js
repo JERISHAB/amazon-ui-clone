@@ -38,23 +38,46 @@ const fetchData = async () => {
       checked.forEach((cb) => {
         const name = cb.getAttribute("fileterName");
         const value = cb.value;
-        filterMap[name] = filterMap[name] || [];
+
+        console.log("name is :", name);
+        console.log("value is :", value);
+
+        if (!filterMap[name]) {
+          filterMap[name] = [];
+        }
         filterMap[name].push(value);
       });
 
       activePTags.forEach((pTag) => {
         const name = pTag.getAttribute("fileterName");
         const value = pTag.getAttribute("value");
-        filterMap[name] = filterMap[name] || [];
+
+        if (!filterMap[name]) {
+          filterMap[name] = [];
+        }
         filterMap[name].push(value);
       });
 
-      const filteredArray = originalArray.filter((item) =>
-        Object.keys(filterMap).every((key) =>
-          filterMap[key].includes(String(item[key]))
-        )
-      );
+      const filteredArray = [];
 
+      for (let i = 0; i < originalArray.length; i++) {
+        const item = originalArray[i];
+        let match = true;
+
+        for (let key in filterMap) {
+          const itemValue = item[key];
+          const allowedValues = filterMap[key];
+
+          if (!allowedValues.includes(itemValue)) {
+            match = false;
+          }
+        }
+
+        if (match) {
+          filteredArray.push(item);
+        }
+      }
+             
       renderProducts(filteredArray);
     }
 
