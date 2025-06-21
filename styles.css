@@ -333,7 +333,7 @@ body {
 .nav-3-heads1 {
   margin-left: 2.05%
   ;
-  white-space: nowrap;
+
 }
 
 .nav-3-heads2,
@@ -341,17 +341,17 @@ body {
 .nav-3-heads6,
 .nav-3-heads8 {
   margin-left: 3.75%;
-  white-space: nowrap;
+
 }
 .nav-3-heads3,
 .nav-3-heads5,
 .nav-3-heads7 {
   margin-left: 3.75%;
-  white-space: nowrap;
+
 }
 .nav-3-heads9 {
   margin-left: 2.75%;
-  white-space: nowrap;
+
 }
 
 .electronics {
@@ -364,7 +364,7 @@ body {
   margin-left: 24px;
   display: flex;
   align-items: center;
-  white-space: nowrap;
+
   padding-bottom: 3.8px;
 }
 
@@ -778,7 +778,7 @@ sup {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .left-sec {
     width: none;
     min-width: 0;
@@ -1317,7 +1317,7 @@ sup {
 
   .nav-3-heads1 {
     margin-left: 2.89%;
-    white-space: nowrap;
+  
   }
 
   .nav-3-heads2,
@@ -1325,14 +1325,14 @@ sup {
   .nav-3-heads6,
   .nav-3-heads8 {
     margin-left: 5.55%;
-    white-space: nowrap;
+  
   }
 
   .nav-3-heads3,
   .nav-3-heads5,
   .nav-3-heads7 {
     margin-left: 5.5%;
-    white-space: nowrap;
+  
   }
   .nav-3 {
     padding-top: 1px;
