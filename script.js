@@ -101,7 +101,7 @@ const fetchData = async () => {
         const isWrapped = discountPrice.toString().length > 3;
         const cashBackClass = isWrapped ? "wrap" : "no-wrap";
         const deliveryClass = isWrapped ? "delivery-wrap" : "delivery-no-wrap";
-
+     
         html += `
         <div class="prod-div">
           <img src="${productImage}" alt="product-image" class="prod-img">

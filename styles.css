@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: "Amazon Ember";
   font-weight: 200;
@@ -18,7 +16,7 @@
     url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff)
       format("woff");
 }
-                                 
+
 @font-face {
   font-family: "Amazon Ember";
   src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2)
@@ -333,20 +331,26 @@ body {
 }
 
 .nav-3-heads1 {
-  margin-left: 30.75px;
+  margin-left: 2.05%
+  ;
   white-space: nowrap;
 }
 
-.nav-3-heads2, .nav-3-heads4, .nav-3-heads6, .nav-3-heads8   {
-  margin-left: 56px;
+.nav-3-heads2,
+.nav-3-heads4,
+.nav-3-heads6,
+.nav-3-heads8 {
+  margin-left: 3.75%;
   white-space: nowrap;
 }
-.nav-3-heads3, .nav-3-heads5, .nav-3-heads7  {
-  margin-left: 57px;
+.nav-3-heads3,
+.nav-3-heads5,
+.nav-3-heads7 {
+  margin-left: 3.75%;
   white-space: nowrap;
 }
 .nav-3-heads9 {
-  margin-left: 42px;
+  margin-left: 2.75%;
   white-space: nowrap;
 }
 
@@ -460,7 +464,7 @@ body {
   margin-bottom: 8px;
 }
 
-#seeBtn{
+#seeBtn {
   display: flex;
   align-items: center;
   margin-top: 3.5px;
@@ -470,13 +474,12 @@ body {
   cursor: pointer;
 }
 
-#seeBtn > img{
+#seeBtn > img {
   padding-top: 1px;
-  margin-left: .35px;
+  margin-left: 0.35px;
   height: 7.2px;
   transform: scaleX(91%);
   margin-right: 3px;
-  
 }
 
 .brand-value {
@@ -546,8 +549,6 @@ body {
   margin-left: 0.5px;
 }
 
-
-
 .filter-text {
   font-size: 14px;
   line-height: 15px;
@@ -602,7 +603,7 @@ p.products-head {
 }
 
 .prod-img {
-  height: 226px;
+  height: 26.37%;
   display: block;
   padding-top: 23.5px;
   margin: 0px auto;
@@ -770,7 +771,8 @@ sup {
 }
 
 .header-2,
-.mob-filter, .rating-img-mob {
+.mob-filter,
+.rating-img-mob {
   display: none;
 }
 
@@ -824,7 +826,7 @@ sup {
     justify-content: space-between;
     gap: 10px;
   }
-  
+
   #toggleBtn {
     display: flex;
     align-items: center;
@@ -858,7 +860,6 @@ sup {
     border-radius: 3px;
     border: solid 1px rgb(238, 238, 238);
     box-sizing: border-box;
-
   }
 
   .prod-img {
@@ -874,10 +875,10 @@ sup {
     box-sizing: border-box;
     color: #696969;
     font-size: 12px;
-      margin-top: -2px;
-      margin-bottom: 4px;
-    }
-                
+    margin-top: -2px;
+    margin-bottom: 4px;
+  }
+
   .discount-price {
     font-size: 22px;
     margin-right: 4px;
@@ -903,7 +904,7 @@ sup {
     margin-left: 1px;
     padding-bottom: 0px;
     position: relative;
-    top: -.5px;
+    top: -0.5px;
   }
 
   .strike {
@@ -919,11 +920,11 @@ sup {
     line-height: 19px;
   }
 
-  .delivery-no-wrap,   .delivery-wrap {
+  .delivery-no-wrap,
+  .delivery-wrap {
     font-size: 12px;
     margin-bottom: 2px;
   }
-
 
   .prime-delivery {
     font-size: 12px;
@@ -940,7 +941,7 @@ sup {
     align-items: center;
   }
 
-  .rating-img{
+  .rating-img {
     display: none;
   }
 
@@ -951,7 +952,7 @@ sup {
     width: 73.2px;
     padding-bottom: 2px;
   }
-       
+
   .no-ratings {
     margin-top: 1px;
     margin-left: 1px;
@@ -978,7 +979,7 @@ sup {
     font-size: 13px;
     height: 32px;
     box-sizing: border-box;
-  } 
+  }
 
   .nav-2,
   .nav-3,
@@ -1103,7 +1104,7 @@ sup {
     height: 25px;
     display: block; */
   }
-        
+
   .nav-search-icon {
     position: relative;
     right: 0px;
@@ -1222,4 +1223,137 @@ sup {
   }
 }
 
+@media screen and (min-width: 1570px) {
+  #grid-sec {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+  }
 
+  .left-sec {
+    margin-left: 50px;
+    margin-right: 48px;
+    margin-top: 5px;
+  }
+
+  .logo-black {
+    box-sizing: border-box;
+    margin: 13px 4px 6px;
+    padding: 8px 5px;
+    height: 50px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    margin: auto 17px;
+    width: 832.75px;
+  }
+
+  .search select {
+    padding-right: 22px;
+  }
+  .down-arrow {
+    right: 6px;
+    top: 48%;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    margin: auto 17px;
+    width: 61.8%;
+  }
+
+  .search img {
+    width: 45px;
+  }
+
+  .lang-img {
+    margin-right: 23px;
+  }
+
+  .nav-addr-deliver {
+    margin-bottom: -1px;
+    position: relative;
+    top: -1px;
+  }
+
+  .nav-addr-text1 {
+    color: white;
+    display: flex;
+    top: -1px;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .nav-addr-text2 {
+    margin-left: 37px;
+  }
+  .nav-addr-hello2 {
+    position: relative;
+    top: -1px;
+  }
+  .cart {
+    margin-left: 24px;
+  }
+
+  .nav-2 {
+    padding: 0px 20px 2px 24px;
+  }
+
+  #all-nav-2 > p {
+    position: relative;
+    top: 1px;
+  }
+  #all-nav-2 {
+    margin-right: 12px;
+  }
+  .nav-2-heads {
+    font-size: 14px;
+    padding-top: 1px;
+    font-weight: 400;
+    margin: auto 10px;
+  }
+
+  .nav-3-heads1 {
+    margin-left: 2.89%;
+    white-space: nowrap;
+  }
+
+  .nav-3-heads2,
+  .nav-3-heads4,
+  .nav-3-heads6,
+  .nav-3-heads8 {
+    margin-left: 5.55%;
+    white-space: nowrap;
+  }
+
+  .nav-3-heads3,
+  .nav-3-heads5,
+  .nav-3-heads7 {
+    margin-left: 5.5%;
+    white-space: nowrap;
+  }
+  .nav-3 {
+    padding-top: 1px;
+  }
+
+  .electronics {
+    padding-bottom: 2.8px;
+  }
+
+  .sortby {
+    padding: 0 2.9%;
+
+}
+
+.prod-img {
+  height: 32.37%;
+  display: block;
+  padding-top: 23.5px;
+  margin: 0px auto;
+}
+.right-sec {
+  margin-right: 50px;
+}
+}
