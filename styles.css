@@ -868,7 +868,7 @@ sup {
     padding-right: 1.5px;
     display: block;
     margin: auto 34.5px;
-    padding-top: 29px;
+    padding-top: 28px;
   }
 
   .bought-past-month {
@@ -876,7 +876,7 @@ sup {
     color: #696969;
     font-size: 12px;
     margin-top: -2px;
-    margin-bottom: 4px;
+    margin-bottom: 32px;
   }
 
   .discount-price {
@@ -928,7 +928,7 @@ sup {
 
   .prime-delivery {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 17px;
   }
 
   .ratings {
@@ -963,11 +963,11 @@ sup {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    margin-bottom: 17px;
+    margin-bottom: 12px;
   }
 
   .add-cart {
-    margin-top: 21px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -998,21 +998,20 @@ sup {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background: #232f3e;
   }
+
+
 
   .nav-mob-1 {
     box-sizing: border-box;
     display: flex;
-  }
-
-  .nav-mob-1 {
-    box-sizing: border-box;
-    display: flex;
-    height: 48px;
+    height: 47px;
     width: 100%;
     border-bottom: 1px solid #232f3e;
     background-color: #232f3e;
     justify-content: space-between;
+    align-items: center;
   }
 
   .mob-nav-left {
@@ -1027,36 +1026,40 @@ sup {
     justify-content: end;
   }
   .burger-logo {
-    height: 18.5px;
-    padding: 14px 13px 14px 14px;
+    position: relative;
+    height: 18px;
+    padding: 14px 14px;
+    
   }
   .nav-mob-logo {
-    box-sizing: border-box;
-    height: 27.5px;
+    height: 26.7px;
     padding-left: 1px;
-    margin-top: 13px;
+    margin-top: 13.25px;
   }
   .mob-nav-name {
-    display: flex;
-    padding-top: 1px;
-    margin: auto 4.5px;
-    font-size: 13px;
-    color: #fff;
+    display: flex
+    ;
+            padding-top: 2px;
+            margin: auto 4.5px;
+            font-size: 13px;
+            color: #fff;
   }
   .mob-nav-profile {
-    height: 27px;
-    width: 31.25px;
-    margin: auto 0px;
-    padding-top: 1px;
-    padding-right: 6px;
-    box-sizing: border-box;
+    height: 25px;
+    position: relative;
+    right: 0.4px;
+    top: 2px;
+    margin-right: 37px;
   }
   .mob-nav-cart {
-    padding: 8px 18.25px 10.75px 10px;
-    box-sizing: border-box;
-  }
+    position: relative;
+    top: -1px;
+    right: 19px;
+}
+  
 
   .nav-mob-2 {
+    margin-top: 1px;
     display: flex;
     height: 50px;
     width: 100%;
@@ -1078,7 +1081,7 @@ sup {
     padding: 0 95px 0 10px;
     font-size: 15px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 7px 8px 8px 7px;
   }
 
   .search-icon-div {
@@ -1126,7 +1129,7 @@ sup {
     justify-content: start;
   }
   .nav-mob-3 > img {
-    margin-top: 2px;
+    margin-top: 1px;
     margin-left: 3.25px;
     margin-right: 5px;
     height: 19px;
@@ -1142,7 +1145,7 @@ sup {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
+    height: 47.5px;
     border: 1px solid rgb(240, 241, 241);
     box-shadow: -8px -8px 10px rgba(0, 0, 0, 0.5);
   }
@@ -1154,13 +1157,13 @@ sup {
   .prime-active {
     display: flex;
     align-items: center;
-    padding-left: 8px;
+    padding-left: 11px;
     margin-right: 4px;
   }
 
   .prime-logo {
     margin-right: 4px;
-    height: 13px;
+    height: 12px;
   }
   .prime-toggle {
     width: 36px;
@@ -1175,10 +1178,11 @@ sup {
     padding: 9px;
     display: flex;
     border-radius: 8px;
-    font-size: 14.5px;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
     margin-right: 4px;
+    margin-top: -1px;
   }
 
   .cash-back-text {
@@ -1190,9 +1194,23 @@ sup {
     font-size: 14px;
     font-weight: 400;
     border: none;
-    margin: 0px 12px;
+    margin: 0px 14px 2px 14px;
     padding: 11px 16px;
   }
+
+  .filter-right > img{
+    position: relative;
+    top: -1.05px;
+    right: -1px;
+    height: 5.5px;
+
+  }
+
+  .filter-number{
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
 }
 
 @media screen and (min-width: 940px) {
