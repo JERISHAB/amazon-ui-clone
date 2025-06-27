@@ -1,9 +1,5 @@
-<svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="30" height="27" fill="url(#pattern0_132_57)"/>
-<defs>
-<pattern id="pattern0_132_57" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_132_57" transform="matrix(0.0333333 0 0 0.037037 -0.333333 -0.296296)"/>
-</pattern>
-<image id="image0_132_57" width="47" height="41" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAApCAYAAAClfnCxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABwSURBVFhH7daxEUBAEEbhpRVyKqB2HShALySbSUTe7dz7Ehe+4B+zw7RsdxQ15rck4ynGU4ynfP7PX+eRr3/N656vN2dD8TygGE8xnmI8pXS8tw2lj9m0yNlQjKcYTzGe4m1D6WM2LXI2FOMpheMjHp5fFDWJ9crqAAAAAElFTkSuQmCC"/>
-</defs>
+<svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="2.5" x2="50" y2="2.5" stroke="white" stroke-width="5"/>
+<line y1="22.5" x2="50" y2="22.5" stroke="white" stroke-width="5"/>
+<line y1="42.5" x2="50" y2="42.5" stroke="white" stroke-width="5"/>
 </svg>

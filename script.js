@@ -77,7 +77,7 @@ const fetchData = async () => {
           filteredArray.push(item);
         }
       }
-             
+               
       renderProducts(filteredArray);
     }
 
@@ -168,8 +168,7 @@ function seeMOre() {
       console.log(brandLabel[i].style.display);
       brandLabel[i].style.display = "none";
       console.log(brandLabel[i].style.display);
-      btn.innerHTML = `<img src="images/categories/see-more-arrow.svg" alt="" />See more`;
-    }
+     }
   
 
   }

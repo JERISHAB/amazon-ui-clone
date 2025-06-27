@@ -331,9 +331,7 @@ body {
 }
 
 .nav-3-heads1 {
-  margin-left: 2.05%
-  ;
-
+  margin-left: 2.05%;
 }
 
 .nav-3-heads2,
@@ -341,17 +339,14 @@ body {
 .nav-3-heads6,
 .nav-3-heads8 {
   margin-left: 3.75%;
-
 }
 .nav-3-heads3,
 .nav-3-heads5,
 .nav-3-heads7 {
   margin-left: 3.75%;
-
 }
 .nav-3-heads9 {
   margin-left: 2.75%;
-
 }
 
 .electronics {
@@ -382,7 +377,7 @@ body {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding-left: 8px;
+  padding-left: 7.75px;
   padding-right: 11px;
   box-shadow: 0px 0.5px 7px 0px rgba(0, 0, 0, 0.152);
 }
@@ -502,8 +497,9 @@ body {
 
 .loc-test {
   background-image: url(images/loc-test.png);
-  background-position: -71px -378px;
+  background-position: -70.5px -378px;
   background-size: 350px;
+  transform: scaleX(95%);
   width: 15px;
   height: 18px;
   margin-top: 8px;
@@ -603,7 +599,7 @@ p.products-head {
 }
 
 .prod-img {
-  height:226px;
+  height: 226px;
   display: block;
   padding-top: 23.5px;
   margin: 0px auto;
@@ -1001,8 +997,6 @@ sup {
     background: #232f3e;
   }
 
-
-
   .nav-mob-1 {
     box-sizing: border-box;
     display: flex;
@@ -1025,38 +1019,106 @@ sup {
     min-width: 60px;
     justify-content: end;
   }
-  .burger-logo {
+  /* .burger-logo {
     position: relative;
     height: 18px;
     padding: 14px 14px;
+    transform: scaleY(104%);
     
+  } */
+  .burger-logo {
+    background-image: url(images/amazon-mob-logo.png);
+    background-size: 275px;
+    width: 20px;
+    height: 20px;
+    /* padding: 1px; */
+    background-position: -20px -378px;
+    position: relative;
+    top: 5px;
+    left: 14px;
+    margin-right: 10px;
   }
-  .nav-mob-logo {
+  /* .nav-mob-logo {
     height: 26.7px;
     padding-left: 1px;
     margin-top: 13.25px;
+    transform: scaleX(99%);
+  } */
+
+  .nav-mob-logo {
+    position: relative;
+    background-image: url(images/amazon-mob-logo.png);
+    background-size: 275px;
+    background-position: -185px -236px;
+    width: 80px;
+    height: 28px;
+    left: 18px;
+    top: 4px;
   }
+
+  .in-nav-mob-logo {
+    position: absolute;
+    top: 2px;
+    right: -16px;
+    font-size: 13.5px;
+    color: white;
+  }
+
   .mob-nav-name {
-    display: flex
-    ;
-            padding-top: 2px;
-            margin: auto 4.5px;
-            font-size: 13px;
-            color: #fff;
+    display: flex;
+    padding-top: 2px;
+    margin: auto 2.65px;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    left: 1px;
+    font-size: 13px;
   }
   .mob-nav-profile {
+    background-image: url(images/amazon-mob-logo.png);
+    position: relative;
+    background-size: 275px;
+    background-position: -141px -300px;
+    width: 35px;
+    height: 27px;
+    left: 2.5px;
+    top: -1px;
+    margin-right: 27px;
+  }
+  /* .mob-nav-profile {
     height: 25px;
     position: relative;
     right: 0.4px;
     top: 2px;
     margin-right: 37px;
-  }
+  } */
   .mob-nav-cart {
+    background-position: -9px -270px;
+    margin-top: -0.5px;
+    width: 37px;
+    height: 27px;
+    right: 17px;
+    position: relative;
+    top: 1px;
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    transform: scale(-101%, 100%);
+    background-size: 275px;
+  }
+
+  .cart-number {
+    color: rgb(240, 136, 4);
+    font-size: 16px;
+    font-weight: 700;
+ 
+    right: 15.5px;
+    position: absolute;
+    top: -2px;
+  }
+  /* .mob-nav-cart {
     position: relative;
     top: -1px;
     right: 19px;
-}
-  
+} */
 
   .nav-mob-2 {
     margin-top: 1px;
@@ -1128,12 +1190,20 @@ sup {
     align-items: center;
     justify-content: start;
   }
-  .nav-mob-3 > img {
+  .mob-3-loc {
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+    background-size: 275px;
+    background-position: -75px -340px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  /* .mob-3-loc {
     margin-top: 1px;
     margin-left: 3.25px;
     margin-right: 5px;
     height: 19px;
-  }
+  } */
   .nav-mob-3 > p {
     display: inline-block;
     font-size: 13px;
@@ -1190,6 +1260,9 @@ sup {
   }
 
   .filter-right {
+
+    position: relative;
+    left:1px;
     color: #007185;
     font-size: 14px;
     font-weight: 400;
@@ -1198,43 +1271,63 @@ sup {
     padding: 11px 16px;
   }
 
-  .filter-right > img{
+  .filter-right > img {
     position: relative;
-    top: -1.05px;
+    top: -.75px;
     right: -1px;
     height: 5.5px;
-
   }
 
-  .filter-number{
+  .filter-number {
     margin-left: 6px;
     margin-right: 6px;
   }
-
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 940px) and (max-width: 1169px) {
   #grid-sec {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1170px) and (max-width: 1289px) {
   #grid-sec {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 }
 
-@media screen and (min-width: 1290px) {
+@media screen and (min-width: 1290px) and (max-width: 1499px) {
   #grid-sec {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
+  .search {
+    display: flex;
+    align-items: center;
+    margin: auto 9px;
+    width: 53%;
+  }
+
+  .nav-addr-text2 {
+    display: none;
+  }
+  .cart {
+    margin: 0 auto;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 2.75px;
+  }
+  /* .nav-addr-text1{
+  display: none;
+}
+.lang-img{
+  margin: auto;
+} */
 }
 
-@media screen and (min-width: 1390px) {
+@media screen and (min-width: 1500px) {
   #grid-sec {
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
@@ -1335,7 +1428,6 @@ sup {
 
   .nav-3-heads1 {
     margin-left: 2.89%;
-  
   }
 
   .nav-3-heads2,
@@ -1343,14 +1435,12 @@ sup {
   .nav-3-heads6,
   .nav-3-heads8 {
     margin-left: 5.55%;
-  
   }
 
   .nav-3-heads3,
   .nav-3-heads5,
   .nav-3-heads7 {
     margin-left: 5.5%;
-  
   }
   .nav-3 {
     padding-top: 1px;
@@ -1362,16 +1452,15 @@ sup {
 
   .sortby {
     padding: 0 2.9%;
+  }
 
-}
-
-.prod-img {
-  height: 272px;
-  display: block;
-  padding-top: 23.5px;
-  margin: 0px auto;
-}
-.right-sec {
-  margin-right: 50px;
-}
+  .prod-img {
+    height: 272px;
+    display: block;
+    padding-top: 23.5px;
+    margin: 0px auto;
+  }
+  .right-sec {
+    margin-right: 50px;
+  }
 }
