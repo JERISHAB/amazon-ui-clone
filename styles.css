@@ -1319,12 +1319,6 @@ sup {
     box-sizing: border-box;
     margin-bottom: 2.75px;
   }
-  /* .nav-addr-text1{
-  display: none;
-}
-.lang-img{
-  margin: auto;
-} */
 }
 
 @media screen and (min-width: 1500px) {
@@ -1334,7 +1328,7 @@ sup {
   }
 }
 
-@media screen and (min-width: 1570px) {
+/* @media screen and (min-width: 1570px) {
   #grid-sec {
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
@@ -1463,4 +1457,4 @@ sup {
   .right-sec {
     margin-right: 50px;
   }
-}
+} */
