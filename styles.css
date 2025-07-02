@@ -91,13 +91,13 @@ body {
   align-items: center;
   height: 60px;
   width: 100%;
-  padding-left: 13.85px;
+  /* padding-left: 13.85px; */
 }
 
 .logo-black {
   box-sizing: border-box;
   margin: 13px 0 6px 0;
-  padding: 8px 5px;
+  padding: 8px 5px 8px 19px;
   height: 50px;
 }
 
@@ -338,15 +338,15 @@ body {
 .nav-3-heads4,
 .nav-3-heads6,
 .nav-3-heads8 {
-  margin-left: 3.75%;
+  margin-left: 3.28%;
 }
 .nav-3-heads3,
 .nav-3-heads5,
 .nav-3-heads7 {
-  margin-left: 3.75%;
+  margin-left: 3.25%;
 }
 .nav-3-heads9 {
-  margin-left: 2.75%;
+  margin-left: 2.5%;
 }
 
 .electronics {
@@ -377,8 +377,8 @@ body {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding-left: 7.75px;
-  padding-right: 11px;
+  padding-left: 15px;
+  padding-right: 19px;
   box-shadow: 0px 0.5px 7px 0px rgba(0, 0, 0, 0.152);
 }
 
@@ -416,13 +416,13 @@ body {
 
 .left-sec {
   width: 17%;
-  min-width: 247px;
-  margin-left: 2px;
+  min-width: 279px;
+  margin-left: 9px;
   margin-top: 5px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px  10px  10px  10.5px;
   font-size: 13px;
   box-sizing: border-box;
 }
@@ -440,6 +440,8 @@ body {
   line-height: 15px;
   padding-left: 2px;
   border-width: 0.5px;
+  position: relative;
+  left: -.5px;
 
   width: 16px;
   height: 16px;
@@ -522,7 +524,7 @@ body {
 
 .greater-than {
   height: 10px;
-  transform: scaleY(98%);
+  transform: scale(112%, 98%);
   margin-bottom: 1px;
 }
 
@@ -565,8 +567,8 @@ body {
 
 .right-sec {
   margin-top: 14.5px;
-  padding-right: 9px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 14px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -599,7 +601,7 @@ p.products-head {
 }
 
 .prod-img {
-  height: 226px;
+  height: 256.6px;
   display: block;
   padding-top: 23.5px;
   margin: 0px auto;
@@ -1109,7 +1111,7 @@ sup {
     color: rgb(240, 136, 4);
     font-size: 16px;
     font-weight: 700;
- 
+
     right: 15.5px;
     position: absolute;
     top: -2px;
@@ -1260,9 +1262,8 @@ sup {
   }
 
   .filter-right {
-
     position: relative;
-    left:1px;
+    left: 1px;
     color: #007185;
     font-size: 14px;
     font-weight: 400;
@@ -1273,7 +1274,7 @@ sup {
 
   .filter-right > img {
     position: relative;
-    top: -.75px;
+    top: -0.75px;
     right: -1px;
     height: 5.5px;
   }
@@ -1301,23 +1302,84 @@ sup {
 @media screen and (min-width: 1290px) and (max-width: 1499px) {
   #grid-sec {
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 9px;
   }
   .search {
     display: flex;
     align-items: center;
     margin: auto 9px;
-    width: 53%;
+    width: 752.338px;
   }
 
   .nav-addr-text2 {
-    display: none;
+    display: flex;
   }
   .cart {
     margin: 0 auto;
     height: 30px;
     box-sizing: border-box;
     margin-bottom: 2.75px;
+  }
+
+  .logo-black {
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB546381437_.png);
+    background-size: 350px;
+    background-position: -9px -125px;
+    width: 122px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 18px;
+    position: relative;
+  }
+
+  .inside-black-logo {
+    font-size: 13.5px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+  }
+  .nav-addr {
+    margin-left: 27px;
+    /* margin: auto 15px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    min-width: 117px;
+  }
+
+  .nav-addr-text1 {
+    color: white;
+    display: flex;
+    top: 0px;
+    position: relative;
+    flex-direction: column;
+    min-width: 101px;
+  }
+
+  .nav-addr-text2 {
+    margin-left: 32px;
+    min-width: 59px;
+  }
+
+  .nav-addr {
+    margin-left: 11px;
+    color: white;
+    display: flex;
+    align-items: center;
+    min-width: 118px;
+    margin-right: 14px;
+  }
+
+  .nav-3-heads1 {
+    margin-left: 1.77%;
+  }
+
+  .nav-addr-text {
+    margin-left: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1328,7 +1390,7 @@ sup {
   }
 }
 
-/* @media screen and (min-width: 1570px) {
+@media screen and (min-width: 1570px) {
   #grid-sec {
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
@@ -1421,7 +1483,7 @@ sup {
   }
 
   .nav-3-heads1 {
-    margin-left: 2.89%;
+    margin-left: 1%;
   }
 
   .nav-3-heads2,
@@ -1457,4 +1519,4 @@ sup {
   .right-sec {
     margin-right: 50px;
   }
-} */
+}
