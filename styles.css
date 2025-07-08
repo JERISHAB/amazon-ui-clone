@@ -909,7 +909,7 @@ sup {
 .globe-div {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   width: 131.98px;
   box-sizing: border-box;
@@ -994,6 +994,10 @@ sup {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 700px) {
+  footer{
+    display: none;
+  }
+
   .left-sec {
     width: none;
     min-width: 0;
